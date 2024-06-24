@@ -6,7 +6,7 @@ EXPOSE 8080
 # just for info...backend port mensioned: 8080
 ENV DB_HOST=mysql
 #for database connection
-RUN useradd expense
+RUN useradd expenseba
 # add user : expense
 RUN mkdir /opt/server 
 #mkdir take anything /app or /opt/server
